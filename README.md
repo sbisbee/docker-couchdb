@@ -10,4 +10,4 @@ This container does the following:
 
   - Automatically starts the couchdb service and makes it listen on localhost.
 
-  - Provides images for 1.3 and 1.4.
+  - Provides images for 1.3, 1.4, and 1.5.
