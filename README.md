@@ -1,6 +1,13 @@
 docker-couchdb
 ==============
 
+This repo is only for those modifying the images. To use the Docker images you
+just need to use Docker.
+
+  - Get the images: `docker pull sbisbee/couchdb`
+
+  - Start CouchDB 1.5: `docker run sbisbee/couchdb:1.5`
+
 This container does the following:
 
   - Installs and configures CouchDB from source.
