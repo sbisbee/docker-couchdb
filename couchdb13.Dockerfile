@@ -1,10 +1,10 @@
 # Apache CouchDB 1.3
 
-FROM ubuntu
+FROM ubuntu:12.10
 MAINTAINER Sam Bisbee <sam@sbisbee.com>
 
 # Get us to a stable place
-RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
+RUN echo "deb http://archive.ubuntu.com/ubuntu quantal main universe" > /etc/apt/sources.list
 RUN apt-get update
 RUN apt-get upgrade -y
 
