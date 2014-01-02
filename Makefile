@@ -22,3 +22,5 @@ all: 1.3 1.4 1.5
 
 clean:
 	rm Dockerfile
+
+.PHONY: 1.3 1.4 1.5
