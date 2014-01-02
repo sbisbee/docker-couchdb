@@ -9,9 +9,11 @@ RUN apt-get update
 RUN apt-get upgrade -y
 
 # CouchDB dependencies
-RUN apt-get install -y make g++ erlang-dev erlang-manpages erlang-base-hipe erlang-eunit erlang-nox erlang-xmerl erlang-inets libmozjs185-dev libicu-dev libcurl4-gnutls-dev libtool
+RUN apt-get install -y make g++
+RUN apt-get install -y erlang-dev erlang-manpages erlang-base-hipe erlang-eunit erlang-nox erlang-xmerl erlang-inets
+RUN apt-get install -y libmozjs185-dev libicu-dev libcurl4-gnutls-dev libtool
 
-# Alt dependencies
+# Docker image dependencies
 RUN apt-get install -y wget
 
 # Set up our build environment
